@@ -31,7 +31,7 @@ All predictors are cross-sectionally standardized within each month.
 Target variable is the next-month return.
 
 ## Binary Labels
-$Y_{i}$ = 1{$Asset Return_{i}$ ≤ −10%}, where $Y_{i}$ = 1 indicates a ‘crash’ event, $Y_{i}$ = 0 otherwise
+$Y_{i}$ = 1{ $Asset Return_{i}$ ≤ −10%}, where $Y_{i}$ = 1 indicates a ‘crash’ event, $Y_{i}$ = 0 otherwise
 -  If there's no −10% observations in $S_{train}$, then
 pick 25%-quantile as the threshold instead
 
